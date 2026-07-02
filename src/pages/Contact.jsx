@@ -138,12 +138,19 @@ const Contact = () => {
 
       {/* Google Maps Mock Container Area */}
       <section className="max-w-7xl mx-auto px-6">
-        <div className="bg-slate-100 rounded-3xl h-96 flex flex-col justify-center items-center text-center px-6 border border-slate-200 text-slate-400">
-          <MapPin className="w-12 h-12 stroke-[1.2] opacity-60 text-blue-600 mb-2" />
-          <h4 className="font-bold text-slate-800 text-base">Interactive Center Map Matrix</h4>
-          <p className="text-xs max-w-xs mt-1">Satellite tracking coordinates for physical audit checking are simulated within active production blocks.</p>
-        </div>
-      </section>
+  <div className="rounded-3xl overflow-hidden border border-slate-200 shadow-lg">
+    <iframe
+      src="https://www.google.com/maps?q=Noida%20Sector%2062&output=embed"
+      width="100%"
+      height="450"
+      style={{ border: 0 }}
+      allowFullScreen=""
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      title="Spark Institute Location"
+    />
+  </div>
+</section>
 
       {/* FAQ Architecture Block */}
       <section className="max-w-4xl mx-auto px-6 space-y-12">
