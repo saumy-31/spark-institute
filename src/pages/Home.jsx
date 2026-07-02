@@ -96,8 +96,8 @@ const Home = () => {
             { icon: <BookOpen className="w-6 h-6 text-blue-600" />, title: 'Granular Standard Modules', text: 'Exhaustive reading material breaking core engineering and medical equations down into logical steps.' },
             { icon: <Users className="w-6 h-6 text-blue-600" />, title: 'Individual Micro-Batches', text: 'Restricted crowd ratios enabling absolute attention per student during complex doubt clearing blocks.' }
           ].map((item, index) => (
-            <div key={index} className="bg-white border border-slate-100 p-8 rounded-2xl hover:shadow-xl transition-all duration-300 group hover:-translate-y-1">
-              <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">{item.icon}</div>
+            <div key={index} className="bg-white border border-slate-100 p-8 rounded-2xl">
+              <div className="w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center mb-6">
               <h3 className="text-xl font-bold text-slate-900 mb-3">{item.title}</h3>
               <p className="text-slate-600 text-sm leading-relaxed">{item.text}</p>
             </div>
